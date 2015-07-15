@@ -3,6 +3,6 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('ember-pusher', 'git://github.com/habdelra/ember-pusher.git#master,');
+    return this.addBowerPackageToProject('ember-pusher', 'habdelra/ember-pusher');
   }
 };
